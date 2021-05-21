@@ -1,0 +1,23 @@
+
+
+.bg {
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 50px;
+    position: relative;
+}
+
+.container__inner-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cityInput {
+    margin-bottom: 30px;
+}
+
